@@ -13,6 +13,7 @@ public class Test {
 		System.out.println("Please enter your moves in the following order: (old x, old y, new x, new y), as the old x and y");
 		System.out.println("being the position of the piece you want to move, followed by the position on which you want to move it!");
 		System.out.println("Important note : The checkmate method is not working correctly!");
+		System.out.println("For best results play it with a console font of 12!");
 		while(Board.isGameGoing()){
 			System.out.print("Enter your move: ");
 			try{
